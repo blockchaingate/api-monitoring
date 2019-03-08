@@ -1,0 +1,21 @@
+.chartBox {
+    width : 800px;
+    margin : 5px;
+    padding : 5px;
+    border-radius: 3px;
+    box-shadow: 2px 2px 5px lightgray;
+    background: white;
+    float: left;
+}
+
+.chart {
+    width:60%;
+    float: left;
+
+}
+
+.pieChart {
+    width:40%;
+    float: left;
+    top: 50%;
+}

@@ -1,0 +1,28 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center;margin:auto;" layout-align='center'>
+  <h1>
+    FAB API Monitor
+  </h1>
+
+
+ <!-- {{blockChainInfo }} -->
+<!--
+<div *ngIf="chart" class="chartBox">
+  <canvas id="canvas" >{{ chart }}</canvas>
+</div>
+
+<div *ngIf="chart1" class="chartBox">
+  <canvas id="canvas1" >{{ chart1 }}</canvas>
+</div>
+-->
+
+<div style=" width:100%;margin: auto;">
+<div *ngFor="let testApi of TestApiArray; index as i;" >
+  <app-api-card  [ApiStatus]='testApi' [aa]='i'  >
+
+</app-api-card>
+</div>
+</div>
+
+</div>
+
